@@ -1,4 +1,4 @@
-fx_version 'bodacious'
+fx_version 'cerulean'
 game 'gta5'
 
 name 'Mythic Framework Notification System'
@@ -6,13 +6,13 @@ author 'Alzar - https://github.com/Alzar'
 version 'v1.0.3'
 
 ui_page {
-    'html/ui.html',
+  'html/ui.html',
 }
 
 files {
-	'html/ui.html',
-	'html/js/app.js', 
-	'html/css/style.css',
+  'html/ui.html',
+  'html/js/app.js', 
+  'html/css/style.css',
 }
 
 client_script 'client/main.lua'
@@ -23,4 +23,7 @@ exports {
 	'DoLongHudText',
 	'DoCustomHudText',
 	'PersistentHudText',
+	'showNotification',
+	'showAdvancedNotification',
+	'showAlert',
 }
